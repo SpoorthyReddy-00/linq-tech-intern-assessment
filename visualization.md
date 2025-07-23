@@ -26,6 +26,8 @@ Before running, install dependencies:
 
 ```bash
 
-pip install pandas plotly kaleido
+pip install pandas plotly kaleido 
+```
 
+```bash
 python visualization.py
