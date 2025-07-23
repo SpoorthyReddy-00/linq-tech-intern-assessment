@@ -31,3 +31,4 @@ pip install pandas plotly kaleido
 
 ```bash
 python visualization.py
+```

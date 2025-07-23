@@ -35,3 +35,4 @@ In the terminal:
 
 ```bash
 python data_ingest.py
+```

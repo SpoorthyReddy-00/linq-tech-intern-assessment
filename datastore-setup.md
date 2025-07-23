@@ -20,4 +20,4 @@ You can run the script with:
 
 ```bash
 python datastore_setup.py
-
+```

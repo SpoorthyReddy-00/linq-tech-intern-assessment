@@ -4,7 +4,7 @@ import sqlite3
 conn = sqlite3.connect("data_store.db")
 cursor = conn.cursor()
 
-# Create a table with category, value, and timestamp
+# Create a table with category, value, timestamp
 cursor.execute('''
     CREATE TABLE IF NOT EXISTS data_entries (
         id INTEGER PRIMARY KEY AUTOINCREMENT,

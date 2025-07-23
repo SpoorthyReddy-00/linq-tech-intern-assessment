@@ -2,10 +2,8 @@ import sqlite3
 import random
 from datetime import datetime, timedelta
 
-# Predefined categories to simulate real data
 categories = ["E-Commerce", "Healthcare", "Social Media", "Cryptocurrency", "Remote Work"]
 
-# Connect to the existing SQLite database
 conn = sqlite3.connect("data_store.db")
 cursor = conn.cursor()
 
@@ -27,7 +25,6 @@ for i in range(100):
         (category, adjusted_value, timestamp)
     )
 
-# Commit the transaction and close the connection
 conn.commit()
 conn.close()
 
