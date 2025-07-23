@@ -1,7 +1,5 @@
 # linq-tech-intern-assessment
 Technology Intern Take-Home Assessment for Linq
-#  Technology Intern Take-Home Assessment
-
 This project demonstrates a simple data pipeline using Python, SQLite, and Plotly.
 
 ##  What It Does
